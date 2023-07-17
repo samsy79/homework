@@ -1,0 +1,122 @@
+*{
+    margin: auto 0;
+}
+.sale{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-weight: bold;
+    
+    
+}
+#session{
+    border: 6px solid black ;
+    margin: 10px;
+}
+img{
+    border: 1px solid black;
+    width: 30%;
+    margin-right: 50px;
+    
+}
+.container{ 
+    display: flex;
+    
+    
+}
+.contains{
+   display: flex;
+   justify-content: space-between;
+   width: 103%;
+}
+h1{
+    text-align: center;
+    background-color: rgba(209, 205, 205, 0.822);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+b{
+    color: rgba(161, 157, 157, 0.568);
+}
+a, p{
+    margin-top: 20px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+li{
+    list-style-type: square;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.now{
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+}
+button{
+    background-color: black;
+    padding: 40px;
+    bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+}
+.black{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+
+}
+.blue{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+}
+.red{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+.yellow{
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+}
+.green{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+}
+.marron{
+    background-color: maroon;
+    width: 20px;
+    height: 20px;
+}
+.color{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 50px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
